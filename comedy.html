@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Action</title>
+ 
+    <style>        body{
+        background-image: url("./photos/bg.jpg");
+    }
+    #box{
+    border:15px double  ;
+    background-color:rgb(180, 164, 164);
+    width: 10%;
+    margin: auto;
+    
+    margin-left: 350px;
+    
+    }
+    .top{
+    display:inline; 
+    font-family: cursive;
+    font-size: 20px;
+    padding-left: 90px;
+    }
+    div{
+        position: absolute;
+        width: 77%;
+        top: 15%;
+        left: 12%;
+        margin: auto;
+        margin-top:50px;
+        margin-left: 150px;
+    }
+    a{
+    color:black;
+    }
+    a:hover{
+    opacity: 0.7;
+    }
+    main img{
+    margin: auto;
+    height:300px; 
+    
+}
+    /************************************************************************/
+    html {
+        background-image: url("./photos/bg.jpg");
+
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    header,
+    footer {
+        position: absolute;
+        width: 100%;
+        color: white;
+        font-weight: bolder;
+        z-index: 1;
+    }
+
+    header {
+        position: fixed;
+        z-index: 1;
+        height: 100px;
+        top: 0%;
+        background-color: rgba(0, 0, 0, 0.765);
+    }
+
+    header img {
+        position: absolute;
+        height: 70%;
+        z-index: 1;
+        margin-top: 14px;
+        margin-left: 14px;
+    }
+
+    header h2 {
+        z-index: 1;
+    }
+
+    footer {
+        position: relative;
+        height: 15vh;
+
+        z-index: 1;
+        background-color: rgba(0, 0, 0, 0.712);
+        color: white;
+        bottom: 0;
+    }
+
+    footer h2 {
+        z-index: 1;
+        position: absolute;
+        color: rgba(255, 255, 255, 0.432);
+        left: 1%;
+        top: 18%;
+    }
+
+    footer p {
+        z-index: 1;
+        position: absolute;
+        left: 2.5%;
+        color: rgba(255, 255, 255, 0.432);
+        top: 47%;
+    }
+
+    .nav {
+        position: absolute;
+        left: -11%;
+        top: -50%;
+        z-index: 1;
+        position: relative;
+        width: 100%;
+    }
+
+    .nav a {
+        z-index: 1;
+        border-style: dashed;
+        border-top: rgb(228, 228, 228);
+        border-left: #000;
+        border-right: #000;
+        border-bottom-color: red;
+        position: relative;
+        font-size: larger;
+        left: 66%;
+        top: 37px;
+        color: white;
+        font-style: italic;
+        margin-right: 20px;
+        text-decoration: none;
+
+    }
+
+    footer a {
+        position: relative;
+        font-size: larger;
+        left: 13%;
+        top: 38.5px;
+        color: white;
+        font-style: italic;
+        margin-right: 20px;
+        text-decoration: none;
+        border-style: dotted;
+        border-top: rgb(228, 228, 228);
+        border-left: #000;
+        border-right: #000;
+        border-bottom-color: red;
+    }
+
+    .h2a {
+        position: absolute;
+        font-style: italic;
+        font-weight: bolder;
+        font-size: x-large;
+        height: 70%;
+        z-index: 1;
+        margin-top: 1.3%;
+        margin-left: 6.5%;
+        color: white;
+
+    }
+
+    .h2b {
+        font-style: italic;
+        font-weight: bolder;
+        font-size: x-large;
+        position: absolute;
+        height: 70%;
+        z-index: 1;
+        margin-top: 3%;
+        margin-left: 6.5%;
+        color: white;
+    }
+    main h2{
+        position: absolute;
+        top: 20%;
+        left: 47%;
+        color: white;
+        background-color: rgba(255, 0, 0, 0.336);
+        padding:1%;
+    }
+    
+    .container{
+        
+        border: 2px solid black;
+        background-color: rgba(255, 0, 0, 0.364);
+        position: absolute;
+        height: 175%;
+        width: 15%;
+        left: 0%;
+        top: 6.4%;
+        margin-left: 0;
+    }
+    .child{
+        
+        text-decoration: none;
+        position: relative;
+        font-weight: bolder;
+        font-size: larger;
+        border: 2px solid black;
+        width:70%;
+        height: 6%;
+        text-align: center;
+        padding-top: 30px;
+        background-color:rgba(0, 0, 0, 0.43);
+    }
+    .child p{
+        color: rgba(255, 255, 255, 0.74);
+        text-decoration: none;
+    }
+
+    .ch1 {
+        
+        text-decoration: none;
+        position: absolute;
+        top: -2%;
+        left: -54%;
+        padding: 2%;
+        font-weight: bolder;
+        font-size: larger;
+        border: 2px solid black;
+        width:70%;
+        height: 4.5%;
+        text-align: center;
+        padding-top: 30px;
+        background-color:rgba(0, 0, 0, 0.586);        
+
+    }
+    .ch1 p {
+        
+        font-size: x-large;
+        color: rgba(255, 255, 255, 0.932);
+    }
+    .ch2{
+        
+        text-decoration: none;
+        position: absolute;
+        top: 8%;
+        left: -54%;
+        padding: 2%;
+        font-weight: bolder;
+        font-size: larger;
+        border: 2px solid black;
+        width:70%;
+        height: 4.5%;
+        text-align: center;
+        padding-top: 30px;
+        background-color:rgba(0, 0, 0, 0.586);
+
+    }
+    .ch2 p {
+        font-size: x-large;
+        color: rgba(255, 255, 255, 0.932);
+    }
+    .ch3{
+        
+        text-decoration: none;
+        position: absolute;
+        top: 18%;
+        left: -54%;
+        padding: 2%;
+        font-weight: bolder;
+        font-size: larger;
+        border: 2px solid black;
+        width:70%;
+        height: 4.5%;
+        text-align: center;
+        padding-top: 30px;
+        background-color:rgba(108, 108, 108, 0.586);
+
+    }
+    .ch3 p {
+        font-size: x-large;
+        color: rgba(255, 255, 255, 0.932);
+    }
+    .ch4{
+        
+        text-decoration: none;
+        position: absolute;
+        top: 28%;
+        left: -54%;
+        padding: 2%;
+        font-weight: bolder;
+        font-size: larger;
+        border: 2px solid black;
+        width:70%;
+        height: 4.5%;
+        text-align: center;
+        padding-top: 30px;
+        background-color:rgba(0, 0, 0, 0.586);
+
+    }
+    .ch4 p {
+        font-size: x-large;
+        color: rgba(255, 255, 255, 0.932);
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="./photos/logo2.png" alt="">
+            <p class="h2a"> Look</p>
+            <p class="h2b">Up</p>
+        </a>
+
+        <div class="nav">
+            <a href="Main.html">Home</a>
+            <a href="Main.html">Moves</a>
+            <a href="Series.html">Series</a>
+            <a href="Tickets.html">Cinemas</a>
+            <a href="Myprofile.html">My profile</a>
+            <a href="index.html">Log out</a>
+        </div>
+    </header>
+    <div class="container">
+
+        <div class="ch1"><a href="Action.html"><p>Action</p></a></div>
+        <div class="ch2"><a href="horror.html"><p>Horror</p></a></div>
+        <div class="ch3"><a href="comedy.html"><p>Comedy</p></a></div>
+        <div class="ch4"><a href="Drama.html"><p>Drama</p></a></div>
+        </div>
+    
+    <main>
+    
+    
+    <div id="poster">
+        <a href="./movies/don'tlookupmovie.html" target="_blank"><img src="./photos/poster1 (1).jpg" alt=""></a>
+        <a href="./movies/pauliegomovie.html" target="_blank"><img src="./photos/paulie go.jpg" alt=""></a>
+        <a href="./movies/dogmovie.html" target="_blank"><img src="./photos/dog.jpg" alt=""></a>
+        &nbsp;&nbsp;
+        <a href="./movies/Buba.html" target="_blank"><img src="./photos/Buba.jpg" alt=""></a>
+        <a href="./movies/GoodonPaper.html" target="_blank"><img src="./photos/Good on Paper.jpg" alt=""></a>
+        <a href="./movies/Cherrypicker.html" target="_blank"><img src="./photos/Cherrypicker.jpg" alt=""></a>
+        &nbsp;&nbsp;
+        <a href="./movies/FamilyCamp.html" target="_blank"><img src="./photos/Family Camp.jpg" alt=""></a>
+        <a href="./movies/MeTime.html" target="_blank"><img src="./photos/Me Time.jpg" alt=""></a>
+        <a href="./movies/40YearsYoung.html" target="_blank"><img src="./photos/40 Years Young.jpg" alt=""></a>
+        &nbsp;&nbsp;<a href="./movies/don'tlookupmovie.html" target="_blank"><img src="./photos/poster1 (1).jpg" alt=""></a>
+        <a href="./movies/pauliegomovie.html" target="_blank"><img src="./photos/paulie go.jpg" alt=""></a>
+        <a href="./movies/dogmovie.html" target="_blank"><img src="./photos/dog.jpg" alt=""></a>
+        &nbsp;&nbsp;
+        <a href="./movies/Buba.html" target="_blank"><img src="./photos/Buba.jpg" alt=""></a>
+        <a href="./movies/GoodonPaper.html" target="_blank"><img src="./photos/Good on Paper.jpg" alt=""></a>
+        <a href="./movies/Cherrypicker.html" target="_blank"><img src="./photos/Cherrypicker.jpg" alt=""></a>
+        &nbsp;&nbsp;
+        <a href="./movies/FamilyCamp.html" target="_blank"><img src="./photos/Family Camp.jpg" alt=""></a>
+        <a href="./movies/MeTime.html" target="_blank"><img src="./photos/Me Time.jpg" alt=""></a>
+        <a href="./movies/40YearsYoung.html" target="_blank"><img src="./photos/40 Years Young.jpg" alt=""></a>
+        &nbsp;&nbsp;
+    </div>
+    </main>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>    <br><br><br><br><br><br><br><br><br><br><br>    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <footer>
+        <h2>&copy;Copy rights</h2>
+        <p>ASU FITers</p>
+        <a href="About.html">About us</a>
+        <a href="Contactus.html">Contact us</a>
+
+    </footer>
+
+</body>
+</html>
